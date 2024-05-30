@@ -1,8 +1,8 @@
 # Tools and Module that i used to create the app#
 
 from tkinter import *
-from PIL import ImageTk, Image
-import requests
+from PIL import ImageTk, Image # type: ignore
+import requests # type: ignore
 import json
 
 # Trying to switch the frames function#
@@ -144,7 +144,7 @@ root.resizable(0,0) #Fixed Window Sized
 
 # Start Frame
 Start_frame = Frame(root, bg='#8c92ac')
-img = ImageTk.PhotoImage(Image.open("logo.png") )
+img = ImageTk.PhotoImage(Image.open("LOGO PNG.png") )
 # Display the logo image
 label = Label(Start_frame, image=img, bg='#8c92ac')
 label.place(x=250, y=0)
